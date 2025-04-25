@@ -2,11 +2,7 @@
 
 #include <stdio.h>
 #include <string.h>
-
-
-// include the user library "core" so we can use those functions
-#include "core.h"
-// include the user library "clinic" where the function prototypes are declared
+#include "core.h" library "clinic" where the function prototypes are declared
 #include "clinic.h"
 
 // Function to sort the values using bubble sort
@@ -253,21 +249,21 @@ void menuAppointment(struct ClinicData* data)
         switch (selection)
         {
         case 1:
-            viewAllAppointments(data);  // ToDo: You will need to create this function!
+            viewAllAppointments(data); 
             suspend();
             break;
         case 2:
-            viewAppointmentSchedule(data);  // ToDo: You will need to create this function!
+            viewAppointmentSchedule(data); 
             suspend();
             break;
         case 3:
             addAppointment(data->appointments, data->maxAppointments,
-                           data->patients, data->maxPatient);  // ToDo: You will need to create this function!
+                           data->patients, data->maxPatient);
             suspend();
             break;
         case 4:
             removeAppointment(data->appointments, data->maxAppointments,
-                              data->patients, data->maxPatient);  // ToDo: You will need to create this function!
+                              data->patients, data->maxPatient);  
             suspend();
             break;
         }
