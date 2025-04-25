@@ -650,8 +650,6 @@ Are you sure you want to exit? (y|n): y
 
 Exiting system... Goodbye.
 
-
-Script done on Sun 03 Apr 2022 10:50:08 PM EDT
 ```
 
 ---
