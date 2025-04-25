@@ -66,15 +66,6 @@ Includes the following options (via `menuAppointment()`):
 
 ---
 
-## 🖥️ How to Compile and Run
-
-```bash
-gcc -Wall main.c core.c clinic.c -o vet_clinic
-./vet_clinic
-```
-
----
-
 ## 📂 Sample Menu
 
 ```
